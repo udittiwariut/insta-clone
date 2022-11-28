@@ -1,0 +1,34 @@
+.comment-wrapper-post {
+	width: 100%;
+	height: 50px;
+	border-radius: 1px solid #dfdfdf;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.comment-btn,
+.action-btn {
+	width: 70px;
+	height: 100%;
+	background: none;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	font-size: 16px;
+	color: rgb(0, 162, 255);
+	opacity: 0.5;
+	cursor: pointer;
+}
+.comments-container {
+	width: 100%;
+	min-height: 10px;
+	max-height: 200px;
+	overflow-x: scroll;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	border-radius: 1px solid #dfdfdf;
+	border-top: 0.5px solid rgb(153, 151, 151);
+}

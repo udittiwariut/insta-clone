@@ -1,0 +1,39 @@
+.comment-container {
+	padding-left: 1.5rem;
+	width: 90%;
+	border-radius: 0.5rem;
+	margin-bottom: 20px;
+}
+
+.comment-container .header {
+	display: flex;
+	padding-left: 0;
+}
+.comment-container img {
+	border: 1px solid hsl(0, 0%, 53%);
+	border-radius: 100%;
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+}
+.comment-container.header.userName {
+	color: #404040;
+	height: 30px;
+	font-weight: bolder;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+.reply-text-box {
+	flex-grow: 1;
+	resize: none;
+	height: 40px;
+	border-radius: 0.5em;
+	padding: 0.2em;
+	font-size: inherit;
+	font-family: inherit;
+	border: px solid hsl(0, 0%, 53%);
+	line-height: 1.4;
+}
+.reply-text-box {
+	display: flex;
+}

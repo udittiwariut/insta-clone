@@ -1,0 +1,32 @@
+.dropDown {
+	position: absolute;
+	text-align: center;
+	width: 10rem;
+	top: 17%;
+	left: 68%;
+	border: 0.5px solid rgb(176, 174, 174);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.dropDown ul {
+	list-style-type: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica;
+}
+.dropDown li {
+	padding: 5px;
+	cursor: pointer;
+}
+.dropDown .dropDown_icon {
+	margin-right: 6px;
+	display: inline;
+}
+.dropDown li:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.dropDown_seprator {
+	height: 1px;
+	width: 100%;
+	background-color: rgb(158, 153, 153);
+}
