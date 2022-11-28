@@ -9,6 +9,7 @@ export const DirectChatMainPage = () => {
 	useEffect(() => setSocket(io("http://localhost:8900")), []);
 
 	useEffect(() => socket?.emit("addUser"));
+	console.log("hello");
 
 	return <div>web socket</div>;
 };
